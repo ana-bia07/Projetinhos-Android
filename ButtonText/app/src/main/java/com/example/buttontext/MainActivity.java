@@ -65,7 +65,7 @@ public class MainActivity extends AppCompatActivity {
         n6.setText(String.valueOf(sorteioMega.get(5)));
     }
 
-    public void cleanResults(){
+    public void cleanResults(View view){
         TextView n1 = findViewById(R.id.n1);
         TextView n2 = findViewById(R.id.n2);
         TextView n3 = findViewById(R.id.n3);
@@ -75,5 +75,4 @@ public class MainActivity extends AppCompatActivity {
 
         setMutiTexts("--", n1, n2, n3, n4, n5, n6);
     }
-
 }
